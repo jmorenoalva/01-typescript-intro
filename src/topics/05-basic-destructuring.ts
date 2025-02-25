@@ -32,6 +32,7 @@ const {author}=details;
 
 const [,,trunk='Not found']: string[] = ['Goku', 'Vegeta'];
 // const trunk = dbz[3] || 'No hay personaje';
+// se puede desestructurar coloando el nombre de la variale en la posicion que se queire extraer
 
 console.error('Personaje 3: ', trunk);
 
